@@ -16,8 +16,68 @@ Css navigation
     box-sizing: border-box;
 }
 
-body{
+.main_hero{
+    
+ 
+    background-color: #111214;
+}
+
+/*Start css style*/
+
+/*Start navigation menu styles*/
+header{
+
+}
+.hero{
     max-width: 1140px;
     margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_logo{
+    margin-top: 20px;
+}
+.nav_logo a{
+    font-family: var(--antonRegular);
+    text-decoration: none;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.logo_white{
+    color: white;
+}
+.logo_grey{
+    color: gray;
+}
+.logo_orange{
+    color: #FE390C;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+.nav_list-item{
+   list-style: none;
+}
+.navlinks{
+    font-family: var(--monserrat);
+    color: var(--colorOrange);
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nav_list-item:not(:last-child){
+    margin-right: 54px;
+
 }
 
