@@ -160,12 +160,12 @@ nav{
         padding: 0;
         position: absolute;
         top: 70%;
-        right: 0;
+        right: 100%;
         width: 200px;
         height: 250px;
         display:inline-block;
         border-radius: 10px;
-        transform: translateX(100%);
+        
         background-color: rgba(2, 2, 2, 0.286);
     }
     .nav_list-item{
@@ -176,6 +176,10 @@ nav{
         background-color: ;
         text-align: center;
     }
+    .menu{
+        transform: translateX(100%);
+    }
+
     .nav_button{
         
     }

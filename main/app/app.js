@@ -11,18 +11,21 @@ window.addEventListener('scroll', () => {
 })
 
 let burger = document.getElementById('nav_burger');
+let menunav = document.getElementsByClassName('.nav_list');
 let navNumber = true;
 burger.addEventListener('click',() =>{
    
     if(navNumber === true){
         burger.classList.remove('fa-bars')
-    burger.classList.add('fa-xmark')
-    navNumber = false;
+        burger.classList.add('fa-xmark')
+        
+        navNumber = false;
 }
     else
     if(navNumber === false){
         burger.classList.remove('fa-xmark')
         burger.classList.add('fa-bars')
+        menunav.classList.add('menu')
         navNumber = true;
 
     }
