@@ -43,6 +43,7 @@ nav{
 .nav{
     max-width: 1140px;
     padding: 0 10px;
+    padding-bottom: 20px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -176,7 +177,28 @@ nav{
 }   
 .banner_icon{
     width: 20%;
+    margin-top: 280px;
 }
+.banner_icon-itesm{
+    list-style: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.banner_logo{
+    margin: 10px;
+    font-size: 25px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.banner_icon-itesm:not(:last-child){
+    margin-bottom: 42px;
+}
+
 
 
 /*stciy navigation*/
@@ -243,6 +265,10 @@ nav{
     .banner_icon{
         width: 20%;
     }
+    .banner_icon-itesm:not(:last-child){
+        margin-bottom: 22px;
+    }
+    
 }
 @media screen and (max-width:1100px){
     .nav_list-item:not(:last-child){
