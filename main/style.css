@@ -36,19 +36,16 @@ body{
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
 }
-
-.hero{
-    
-}
 nav{
     
     position: relative;
 }
 .nav{
     max-width: 1140px;
+    padding: 0 10px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     overflow: hidden;
     background-color: transparent;
 }
@@ -122,6 +119,65 @@ nav{
     color: white;
     cursor: pointer;
 }
+.banner{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    
+}
+.banner_info{
+    width: 80%;
+    padding-top: 280px; 
+}
+.banner_info-name{
+    font-family: var(--monserrat);
+    font-size: 30px;
+    font-style: 700;
+    font-weight: bold;
+    line-height: 30px;
+    color: var(--colorOrange);
+}
+.info_name{
+    color: white;
+}
+.banner_main-name{
+    margin-top: 12px;
+    color: white;
+    font-family: var(--antonRegular);
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154px; /* 118.462% */
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+}
+.banner_paragraf{
+    font-family: var(--monserrat);
+    margin-top: 12px;
+    margin-bottom: 24px;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: -0.64px;
+}
+.banner_button{
+    width: 106px;
+    height: 47px;
+    background-color: var(--colorOrange);
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+}   
+.banner_icon{
+    width: 20%;
+}
+
 
 /*stciy navigation*/
 .navhader{
@@ -143,6 +199,50 @@ nav{
     .nav_button{
         margin-left: -200px;
     }
+
+
+    .banner_info{
+        width: 80%;
+        padding-top: 280px; 
+    }
+    .banner_info-name{
+        font-family: var(--monserrat);
+        font-size: 20px;
+        font-style: 700;
+        font-weight: bold;
+        line-height: 30px;
+        color: var(--colorOrange);
+    }
+    .info_name{
+        color: white;
+    }
+    .banner_main-name{
+        margin-top: -50px;
+        color: white;
+        font-family: var(--antonRegular);
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 154px; /* 118.462% */
+        letter-spacing: 1.95px;
+        text-transform: uppercase;
+    }
+    .banner_paragraf{
+        font-family: var(--monserrat);
+        color: white;
+        margin-top: -50px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 187.5% */
+        letter-spacing: -0.64px;
+    }
+    .banner_button{
+      
+    }   
+    .banner_icon{
+        width: 20%;
+    }
 }
 @media screen and (max-width:1100px){
     .nav_list-item:not(:last-child){
@@ -156,6 +256,9 @@ nav{
     }
 }
 @media screen and (max-width:850px){
+    .nav_button{
+        display: none;
+    }
     .nav_list{
         position: absolute;
         padding: 0;
