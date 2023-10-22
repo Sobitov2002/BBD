@@ -185,15 +185,22 @@ nav{
     height: 42px;
     border-radius: 50%;
     text-align: center;
+    position: relative;
     background-color: rgba(255, 255, 255, 0.10);
 }
 
 .banner_logo{
-    margin: 10px;
+    position: absolute;
+    top: 4px;
+    left: 9px;
     font-size: 25px;
     align-items: center;
     text-decoration: none;
     color: white;
+}
+.banner_icon-itesm:hover{
+    transition: all .2s ease-in-out;
+   background-color: #FE390C;
 }
 .banner_icon-itesm:not(:last-child){
     margin-bottom: 42px;
