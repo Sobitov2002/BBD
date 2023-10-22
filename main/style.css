@@ -102,11 +102,21 @@ nav{
     margin-bottom: 20px;
     border-radius:4px;
     border: 1px solid #FE390C;
+    cursor: pointer;
 }
 .contact_botton{
     
     background: transparent;
     color: var(--colorOrange);
+}
+.burger_toggle{
+    display: none;
+    margin-top: 25px;
+}
+.burger_toggle i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
 }
 
 /*stciy navigation*/
@@ -145,7 +155,20 @@ nav{
        display: none;
     }
     .nav_button{
-        margin-left: 200px;
+        
+    }
+    .burger_toggle{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:850px){
+   
+    .nav_button{
+        margin-left: -10px;
+    }
+    .burger_toggle{
+        display: block;
     }
     
 }
