@@ -11,22 +11,28 @@ window.addEventListener('scroll', () => {
 })
 
 let burger = document.getElementById('nav_burger');
-let menunav = document.getElementsByClassName('.nav_list');
+let nanMenu = document.getElementById('menu')
 let navNumber = true;
 burger.addEventListener('click',() =>{
    
     if(navNumber === true){
         burger.classList.remove('fa-bars')
         burger.classList.add('fa-xmark')
-        
+        nanMenu.classList.add('block')
         navNumber = false;
 }
     else
     if(navNumber === false){
         burger.classList.remove('fa-xmark')
         burger.classList.add('fa-bars')
-        menunav.classList.add('menu')
+        nanMenu.classList.remove('block')
         navNumber = true;
 
     }
 })
+//navigation burger 
+
+function menuOn(){
+    
+}
+ 

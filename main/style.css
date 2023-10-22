@@ -22,6 +22,7 @@ Css navigation
     background-image: url('./imgage/Background.png');
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 body{
     overflow-x: hidden;
@@ -30,17 +31,17 @@ body{
 /*Start css style*/
 
 /*Start navigation menu styles*/
-header{
-
-}
-
-.hero{
-    width: 100%;
-}
-nav{
+.div{
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
+}
+
+.hero{
+    
+}
+nav{
+    
     position: relative;
 }
 .nav{
@@ -50,7 +51,6 @@ nav{
     justify-content: space-around;
     overflow: hidden;
     background-color: transparent;
-   
 }
 .nav_logo{
     margin-top: 20px;
@@ -157,29 +157,27 @@ nav{
 }
 @media screen and (max-width:850px){
     .nav_list{
-        padding: 0;
         position: absolute;
-        top: 70%;
-        right: 100%;
-        width: 200px;
-        height: 250px;
-        display:inline-block;
+        padding: 0;
+        top: 8vh;
+        right: 0;
+        width: 100%;
+        height: 300px;
+        display:none;
         border-radius: 10px;
-        
         background-color: rgba(2, 2, 2, 0.286);
+    }
+    .block{
+        display: inline-block;
+        transition:  1s ease-in-out;
     }
     .nav_list-item{
         margin: 10px auto;
         padding-top: 8%;
         width: 100%;
         height: 50px;
-        background-color: ;
         text-align: center;
     }
-    .menu{
-        transform: translateX(100%);
-    }
-
     .nav_button{
         
     }
