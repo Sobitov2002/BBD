@@ -1,2 +1,22 @@
-/* font-family: 'Anton', sans-serif;
-font-family: 'Montserrat', sans-serif; */
+/*
+Css navigation
+
+*/
+
+:root{
+   --antonRegular : 'Anton', sans-serif; 
+   --monserrat :  'Montserrat', 'sans';
+   --taxtMain :  #111214;
+   --buttonBackgraund : #FE390C;
+   --colorOrange : #FE390C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1140px;
+}
+
