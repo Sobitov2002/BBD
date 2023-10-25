@@ -36,3 +36,4 @@ function menuOn(){
     
 }
  
+console.log("salom");
