@@ -304,6 +304,38 @@ nav {
   line-height: 32px; 
   letter-spacing: -0.28px;
 }
+
+
+/* services section style*/
+.service {
+}
+.container {
+}
+.service-paragraf {
+}
+.service-items {
+  margin-top: 80px;
+  width:100%;
+  margin: auto;
+}
+.service-item{
+  width: 230px;
+  margin: auto;
+  height: 260.059px;
+  background: #F7F7F7;
+}
+.service-item:not(:last-child){
+  margin-left: px;
+}
+.row {
+}
+.col-md-3 {
+}
+.sevice-item-text {
+}
+.service-info {
+}
+
 /* Responsive site  */
 @media screen and (max-width: 1200px) {
   .nav_list-item:not(:last-child) {
@@ -414,5 +446,10 @@ nav {
   }
   .about-paragraf span{
     font-style: 32px;
+  }
+  .service-item{
+    margin-top: 10px;
+    width: 330px;
+   
   }
 }/*# sourceMappingURL=style.css.map */
