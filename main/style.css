@@ -402,8 +402,6 @@ nav {
   text-align: center;
 }
 
-.col-md-6 {
-}
 .footer-input-paragraf {
   margin-top: 97px;
   width: 100%;
@@ -428,7 +426,6 @@ hr{
 }
 .input {
   width: 100%;
-  margin-top: 40px;
 }
 label,textarea{
   width: 100%;
@@ -640,7 +637,16 @@ textarea{
   .input{
     display: flex;
     flex-direction: column;
-    margin-top: 4px;
+    margin-top: 10px;
+  }
+  input{
+    width: 100%;
+  }
+  textarea{
+    width: 105%;
+  }
+  .textarea{
+    margin-top: 20px;
   }
 
 }
@@ -686,6 +692,12 @@ textarea{
   }
   .site-footer{
    height: 1155px;
+  }
+  input{
+    width: 105%;
+  }
+  .input-btn{
+    margin-top: 10px;
   }
   
 }/*# sourceMappingURL=style.css.map */
