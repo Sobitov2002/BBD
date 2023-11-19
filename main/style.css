@@ -427,9 +427,10 @@ hr{
   background-color: #A9A9AA;
 }
 .input {
+  width: 100%;
   margin-top: 40px;
 }
-input, label,textarea{
+label,textarea{
   width: 100%;
 }
 label{
@@ -636,6 +637,11 @@ textarea{
   .burger_toggle {
     display: block;
   }
+  .input{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 @media screen and (max-width: 850px) {
   .nav_button {
@@ -680,7 +686,5 @@ textarea{
   .site-footer{
    height: 1155px;
   }
-  input{
-    width: 100%;
-  }
+  
 }/*# sourceMappingURL=style.css.map */
