@@ -18,7 +18,7 @@ Css navigation
 
 .main_hero {
   width: 100%;
-  height: 940px;
+  height: 740px;
   background-image: url("./imgage/Background.png");
   background-size: cover;
   background-position: center;
@@ -238,6 +238,72 @@ nav {
   background-color: rgba(2, 2, 2, 0.664);
 }
 
+
+
+.about-section{
+  margin-top: 28px;
+}
+.about-text{
+  width: 100%;
+  height: ;
+}
+.about-section-1 .about-img {
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 0 20px 0;
+}
+.about-text_1 h1,
+.about-text_2 h1{
+  font-family: Anton;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #FE390C;
+}
+.about-text_1 span,
+.about-text_2 span{
+  color: #111214;
+  font-family: Montserrat;
+  font-size:16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  padding: 0 10px;
+}
+
+.about-text_2 {
+  text-align: left;
+}
+
+.about-paragraf h1{
+  color: #FE390C;
+  font-family: Anton;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
+}
+.about-paragraf span{
+  color: #111214;
+  font-family: Anton;
+ font-size: 40px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ letter-spacing: 0.8px;
+ text-transform: uppercase;
+}
+.aboutme-info {
+  color: #A9A9AA;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; 
+  letter-spacing: -0.28px;
+}
 /* Responsive site  */
 @media screen and (max-width: 1200px) {
   .nav_list-item:not(:last-child) {
@@ -340,5 +406,13 @@ nav {
   }
   .burger_toggle {
     display: block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutme-info{
+    font-size: 12px;
+  }
+  .about-paragraf span{
+    font-style: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
