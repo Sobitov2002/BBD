@@ -640,6 +640,7 @@ textarea{
   .input{
     display: flex;
     flex-direction: column;
+    margin-top: 4px;
   }
 
 }
