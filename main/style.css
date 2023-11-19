@@ -311,7 +311,26 @@ nav {
 }
 .container {
 }
-.service-paragraf {
+.service-paragraf{
+  text-align: center;
+}
+.service-paragraf h1{
+  color: var(--colorOrange);
+  font-family: var(--antonRegular);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+.service-paragraf span{
+  color: var(--taxtMain);
+  font-family: Anton;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .service-items {
   margin-top: 80px;
@@ -321,8 +340,13 @@ nav {
 .service-item{
   width: 230px;
   margin: auto;
-  height: 260.059px;
+  height: 230.059px;
   background: #F7F7F7;
+}
+
+.service-item svg{
+  margin-left: 10px;
+  margin-top: 39px;
 }
 .service-item:not(:last-child){
   margin-left: px;
@@ -332,8 +356,22 @@ nav {
 .col-md-3 {
 }
 .sevice-item-text {
+  color: #111214;
+  font-family: var(--antonRegular);
+  font-size: 16px;
+  font-style: bold;
+  font-weight: 00;
+  line-height: 30px;  
 }
 .service-info {
+  color: #A9A9AA;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;  
+}
+.orange{
+  background-color: #FE390C;
 }
 
 /* Responsive site  */
@@ -389,6 +427,7 @@ nav {
   .banner_icon-itesm:not(:last-child) {
     margin-bottom: 22px;
   }
+ 
 }
 @media screen and (max-width: 1100px) {
   .nav_list-item:not(:last-child) {
@@ -451,5 +490,15 @@ nav {
     margin-top: 10px;
     width: 350px;
    
+  }
+  .service-paragraf{
+    width: 90%;
+    margin: auto;
+  }
+  .service-paragraf h1{
+    font-size: 64px;
+  }
+  .service-paragraf span{
+    font-family: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
