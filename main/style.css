@@ -794,6 +794,9 @@ button{
   .resource-paragraf{
     font-size: 22px;
   }
+  .resource{
+    height: 400px;
+  }
   .service {
     margin-top: 500px;
   }
