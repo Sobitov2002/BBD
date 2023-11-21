@@ -445,7 +445,6 @@ nav {
 }
 .contact-link {
   width: 100%;
-  height:200px;
   margin-top: 45px;
   display: flex;
   justify-content: left;
@@ -747,6 +746,9 @@ button{
   .service {
     margin-top: 400px;
   }
+  .contact-link{
+    height: 200px;
+  }
   .input{
     display: flex;
     flex-direction: column;
@@ -798,7 +800,7 @@ button{
     height: 400px;
   }
   .service {
-    margin-top: 500px;
+    margin-top: 400px;
   }
   .service-item{
     margin-top: 10px;
